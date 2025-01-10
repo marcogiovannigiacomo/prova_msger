@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    height: 100vh;
+
+}
+
+.leftside-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 100vh;
+    background-color:
+        /*hsl(120, 50%, 50%)*/
+        white;
+
+    width: 30%;
+
+    border-right: 1px solid #c6c7c9;
+
+    float: left;
+}
+
+.chat-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+    
+    border-right: 1px solid #c6c7c9;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.singlechat-container {
+    border: 0;
+    width: 350px;
+
+    padding: 10px;
+
+    background-color: #c6c7c9;
+    border-bottom: 1px solid hsl(0, 0%, 57%);
+}
+
+
+.singlechat-container:hover {
+    background-color: hsl(216, 7%, 87%);
+    cursor: pointer;
+}
+
+.rightside-container {
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+.top-rightside-container {
+    background-color: #F0F2F5;
+    height: 10%;
+    width: 100%;
+
+
+}
+
+.bottom-rightside-container {
+    background-color: white;
+
+    height: 90%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chat-box{
+    background-color: blue;
+
+    width: 100%;
+    height: 90%;
+}
+
+.message-send-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10%;
+}
+
+.input-container{
+
+    align-items: center;
+
+    width: 1000px;
+    height: 40px;
+
+    border: 1px solid #c6c7c9;
+    border-radius: 40px;
+
+    margin-left: -70px;
+}
+
+.send{
+    
+        background-color: #0084ff !important;
+        color: white !important;
+        border: 0 !important;
+        border-radius: 40px !important;
+        width: 40px !important;
+        height: 40px !important;
+        margin-left: 40px !important;
+    
+}
+
+
+  
+  

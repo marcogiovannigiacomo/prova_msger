@@ -1,0 +1,50 @@
+body{
+    background-color: #FCF5EB;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;                 
+}
+
+.navbar{
+    background-color: rgb(59, 218, 59);
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: end;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    background-color: white;
+
+    border: solid 1px black;
+    border-radius: 30px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 100px;
+    padding: 0;
+}
+
+.presentazione{
+    padding-bottom: 30px;
+}
+
+.presentazione h1{
+    color: rgb(59, 218, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
