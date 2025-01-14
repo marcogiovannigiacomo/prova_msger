@@ -28,8 +28,8 @@ $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
     while ($row = mysqli_fetch_assoc($result)) {
-        echo "<form method='post' action='chat.php'>";
-        echo '<button type="submit" class= "' . $classebottone . '">' . $row["chat_name"] . '" ';
+        echo "<form method='post' action='getMessages.php'>";
+        echo '<button type="submit" class= "' . $classebottone . '"name="chat-button" value="'. $row["chat_id"].'">' . $row["chat_name"] . '" ';
         $sql2 = "SELECT 
                         u.id AS user_id,
                         u.name AS user_name,

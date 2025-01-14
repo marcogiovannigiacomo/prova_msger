@@ -44,7 +44,7 @@ $username = $_SESSION["username"];
 
             <div class="bottom-rightside-container ">
                 <div class="chat-box">
-                    ddd
+                    <?php include("getMessages.php"); ?>
                 </div>
                 <div class="message-send-box">
                     <form action="sendMessage.php" method="post">
